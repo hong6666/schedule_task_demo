@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
  * @since 2020/5/5
  */
 @Configuration
-@EnableScheduling
+//@EnableScheduling
 public class DynamicScheduleTask implements SchedulingConfigurer {
 
     @Mapper

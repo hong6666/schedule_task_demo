@@ -13,11 +13,11 @@ import java.time.LocalDateTime;
  * @since 2020/5/5
  */
 @Configuration
-@EnableScheduling
+//@EnableScheduling
 public class StaticScheduleTask {
 
-    @Scheduled(cron = "0/5 * * * * ?")
-    //@Scheduled(fixedRate = 5000)
+//    @Scheduled(cron = "0/5 * * * * ?")
+//    @Scheduled(fixedRate = 5000)
     private void configureTasks()
     {
         System.err.println("执行静态定时任务时间：" + LocalDateTime.now());
